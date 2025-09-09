@@ -98,7 +98,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, index }) => {
             <div className="flex justify-between items-center">
               <div>
                 <p className="text-2xl font-bold text-primary">
-                  ${product.price}
+                  ₹{product.price}
                 </p>
                 <p className="text-xs text-muted-foreground">per piece</p>
               </div>

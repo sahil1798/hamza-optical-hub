@@ -48,7 +48,7 @@ const ProductCard: React.FC<ProductCardProps> = ({ product, index }) => {
       whileHover={{ y: -4 }}
       className="h-full"
     >
-      <Card className="card-product h-full flex flex-col">
+      <Card className="card-product group h-full flex flex-col">
         <div className="relative aspect-square bg-gradient-subtle rounded-t-xl overflow-hidden">
           <img
             src={product.image}
